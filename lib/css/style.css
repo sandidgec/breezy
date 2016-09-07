@@ -1,0 +1,52 @@
+.jumbotron {
+  background: linear-gradient(lightgreen, white);
+  height: 750px;
+  font-family: 'Baloo Tamma', cursive;
+
+
+}
+
+.juliatext {
+  font-family: 'Lobster Two', cursive;
+  font-size: 4em;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+
+}
+
+.img-circle {
+  box-shadow: 6px 5px 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.breezytext {
+  font-size: 4em;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px black;
+  padding-bottom: 40px;
+}
+
+.fa {
+  font-size: 2.6em;
+  padding-right: 23px;
+  padding-left: 23px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.fa:hover {
+  color: yellow;
+}
+
+.round {
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  border: 2px solid white;
+  
+}
