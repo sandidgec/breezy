@@ -2,10 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Breezy Consulting</title>
+    <title>Julia Jones</title>
     <?php require_once("lib/head-utils.php");?>
   </head>
   <body>
+
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span><div><h3>Julia</h3></div></li>
+        <li><span>Image 02</span><div><h3>qui·e·tude</h3></div></li>
+        <li><span>Image 03</span><div><h3>bal·ance</h3></div></li>
+        <li><span>Image 04</span><div><h3>e·qua·nim·i·ty</h3></div></li>
+        <li><span>Image 05</span><div><h3>com·po·sure</h3></div></li>
+        <li><span>Image 06</span><div><h3>se·ren·i·ty</h3></div></li>
+    </ul>
 
     <div class="landing">
 
@@ -40,7 +49,7 @@
 
       </div>
 
-      
+
 
     </div>
 
@@ -58,5 +67,7 @@
       integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
       crossorigin="anonymous">
     </script>
+
+    <!-- <script src="lib/js/slide.js"></script> -->
   </body>
 </html>
