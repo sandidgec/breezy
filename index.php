@@ -9,28 +9,28 @@
 
     <ul class="cb-slideshow">
         <li><span>Image 01</span><div><h3>Julia</h3></div></li>
-        <li><span>Image 02</span><div><h3>qui·e·tude</h3></div></li>
-        <li><span>Image 03</span><div><h3>bal·ance</h3></div></li>
-        <li><span>Image 04</span><div><h3>e·qua·nim·i·ty</h3></div></li>
-        <li><span>Image 05</span><div><h3>com·po·sure</h3></div></li>
-        <li><span>Image 06</span><div><h3>se·ren·i·ty</h3></div></li>
+        <li><span>Image 02</span><div><h3>Jones</h3></div></li>
+        <li><span>Image 03</span><div><h3>consultant</h3></div></li>
+        <li><span>Image 04</span><div><h3>friend</h3></div></li>
+        <li><span>Image 05</span><div><h3>neighbor</h3></div></li>
+        <li><span>Image 06</span><div><h3>innovator</h3></div></li>
     </ul>
 
     <div class="landing">
 
-      <div>
+      <!-- <div>
         <h3 class="text-center juliatext animated bounceIn">Julia Jones</h3>
-      </div>
+      </div> -->
 
       <div class="container">
         <div class="row centerAlign">
-          <div class="circleOutline centerAlign col-md-4">
+          <div class=" centerAlign col-md-4">
             <a href="#"><h3>about</h3></a>
           </div>
           <div class="col-md-4 centerAlign">
             <img class="img-responsive img-circle" style="margin:25px;"src="lib/images/juliaPic.jpg" alt="" />
           </div>
-          <div class="circleOutline centerAlign col-md-4">
+          <div class=" centerAlign col-md-4">
             <a href="#"><h3>services</h3></a>
           </div>
         </div>
