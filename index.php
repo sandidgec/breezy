@@ -111,6 +111,9 @@
       crossorigin="anonymous">
     </script>
 
+    <!--  materialKit javascript  -->
+    <script src="lib/js/material.min.js"></script>
+
     <!-- <script src="lib/js/slide.js"></script> -->
   </body>
 </html>

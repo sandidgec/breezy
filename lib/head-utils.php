@@ -12,6 +12,8 @@
 
 <link rel="stylesheet" href="lib/css/animate.css"/>
 
+<link rel="stylesheet" href="lib/css/materialKit.css"/>
+
 <link rel="stylesheet" href="lib/css/style.css"/>
 
 <link rel="stylesheet" href="lib/css/slide.css"/>
