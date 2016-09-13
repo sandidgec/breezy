@@ -8,6 +8,9 @@
   integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
   crossorigin="anonymous">
 
+<!--  Material Kit icons  -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
 <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700" rel="stylesheet">
 
 <link rel="stylesheet" href="lib/css/animate.css"/>

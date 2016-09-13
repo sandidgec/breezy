@@ -25,8 +25,12 @@
       <div class="container">
         <div class="row centerAlign">
           <div class=" centerAlign col-md-4">
+            <!--  materialModal-->
+            <button class="btn btn-primary" data-toggle="modal" data-target="#materialAboutModal">
+              about
+            </button>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#aboutModal">
+            <button type="button" class="btn btn-primary btn-lg btn-round btn-success" data-toggle="modal" data-target="#aboutModal">
               about
             </button>          </div>
           <div class="col-md-4 centerAlign">
@@ -34,7 +38,11 @@
           </div>
           <div class=" centerAlign col-md-4">
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#servicesModal">
+            <button type="button" class="btn btn-primary btn-lg btn-round btn-success" data-toggle="modal" data-target="#servicesModal">
+              services
+            </button>
+            <!--  materialModal-->
+            <button class="btn btn-primary" data-toggle="modal" data-target="#materialServicesModal">
               services
             </button>
           </div>
@@ -56,6 +64,39 @@
 
 
 
+    <!--  materialModal  -->
+    <!-- Sart Material About Modal -->
+    <div class="modal fade" id="materialAboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    					<i class="material-icons">clear</i>
+    				</button>
+    				<h4 class="modal-title">Material about</h4>
+    			</div>
+    			<div class="modal-body">
+    				<p>
+              Scenester fam gluten-free, 90's banjo plaid art party DIY
+              shoreditch heirloom retro jianbing bicycle rights occupy. Af
+              tofu four loko migas intelligentsia normcore. Helvetica hammock
+              narwhal, brooklyn wolf skateboard blog actually banh mi selfies
+              butcher succulents letterpress semiotics. Pork belly yr bushwick
+              hashtag, shabby chic banjo deep v 3 wolf moon. Hashtag church-key
+              ugh, irony tote bag authentic tacos YOLO scenester neutra heirloom.
+              Shoreditch gentrify pug, literally pok pok iPhone tumeric art party.
+              Cold-pressed you probably haven't heard of them hoodie, biodiesel
+              semiotics williamsburg 8-bit 90's helvetica ugh.
+            </p>
+    			</div>
+    			<div class="modal-footer">
+    				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--  End Modal -->
+
     <!-- aboutModal -->
     <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
@@ -65,7 +106,7 @@
             <h4 class="modal-title" id="myModalLabel">about</h4>
           </div>
           <div class="modal-body">
-            ...
+            {insert content here}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -74,6 +115,39 @@
         </div>
       </div>
     </div>
+
+    <!-- Sart Material Servuces Modal -->
+    <div class="modal fade" id="materialServicesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<div class="modal-header">
+    				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+    					<i class="material-icons">clear</i>
+    				</button>
+    				<h4 class="modal-title">Material services</h4>
+    			</div>
+    			<div class="modal-body">
+    				<p>
+              Scenester fam gluten-free, 90's banjo plaid art party DIY
+              shoreditch heirloom retro jianbing bicycle rights occupy. Af
+              tofu four loko migas intelligentsia normcore. Helvetica hammock
+              narwhal, brooklyn wolf skateboard blog actually banh mi selfies
+              butcher succulents letterpress semiotics. Pork belly yr bushwick
+              hashtag, shabby chic banjo deep v 3 wolf moon. Hashtag church-key
+              ugh, irony tote bag authentic tacos YOLO scenester neutra heirloom.
+              Shoreditch gentrify pug, literally pok pok iPhone tumeric art party.
+              Cold-pressed you probably haven't heard of them hoodie, biodiesel
+              semiotics williamsburg 8-bit 90's helvetica ugh.
+            </p>
+    			</div>
+    			<div class="modal-footer">
+    				<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal">Close</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!--  End Modal -->
+
 
 
 
@@ -86,7 +160,7 @@
             <h4 class="modal-title" id="myModalLabel">services</h4>
           </div>
           <div class="modal-body">
-            ...
+            {insert content here}
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
